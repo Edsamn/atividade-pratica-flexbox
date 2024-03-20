@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.circulo-amarelo,
+.quadrado-azul1,
+.quadrado-azul2 {
+  height: 100px;
+  width: 100px;
+  border: solid black;
+}
+
+.circulo-amarelo {
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.quadrado-azul1,
+.quadrado-azul2 {
+  background-color: blue;
+}

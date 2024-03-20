@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.circulo-amarelo,
+.circulo-azul {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid black;
+}
+
+.circulo-amarelo {
+  background-color: yellow;
+}
+
+.circulo-azul {
+  background-color: blue;
+}
