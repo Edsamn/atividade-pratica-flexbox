@@ -7,7 +7,7 @@ body {
   display: flex;
   height: 100vh;
   justify-content: space-between;
-  align-items: end;
+  flex-direction: column;
 }
 
 .circulo-amarelo,
@@ -18,12 +18,20 @@ body {
   border: solid black;
 }
 
+#circulo {
+  justify-content: end;
+  display: flex;
+}
+
+#quadrados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .circulo-amarelo {
   border-radius: 50%;
   background-color: yellow;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .quadrado-azul1,
